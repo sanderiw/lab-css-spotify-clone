@@ -34,6 +34,9 @@ nav {
   right: 30px;
   top: 30px;
   width: 550px;
+  background-color: rgba(255,255,255, 0.3);
+  padding-right: 30px;
+  
 }
 
 .nav-ul {
@@ -125,4 +128,60 @@ nav {
   font-weight: 100;
   margin: 20px 20px 0 20px ;
 
+}
+
+#marketing {
+  background-color: #00B172;
+  margin: 0 45px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 160px;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.text {
+  margin: 30px 0 30px 35px;
+  
+}
+
+.text h2 {
+  color: white;
+  font-size: 45px;
+  border-bottom: 5px solid white;
+  width: 650px;
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+.mkt-boxes {
+  width: 420px;
+}
+
+.mkt-boxes h3 {
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+
+}
+
+.mkt-boxes p {
+  color: white;
+  font-size: 25px;
+}
+
+.img-app {
+  margin: 60px 70px;
+  margin-bottom: 80px;
+}
+
+.img-app img {
+  height: 710px;
+}
+
+footer {
+  height: 45px;
 }
