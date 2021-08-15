@@ -81,4 +81,48 @@ nav {
   margin: 50px 350px;
 }
 
+#general {
+  margin: 25px 100px;
+}
 
+#general h2 {
+  text-align: center;
+  font-size: 46px;
+  font-weight: bolder;
+  border-bottom: 5px solid #00B172;
+  margin-left: auto;
+  margin-right: auto;
+  width: 440px;
+
+}
+
+.set-features {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.feature {
+  margin: 100px 10px;
+  width: 400px;
+}
+
+.feature img {
+  width: 150px;
+
+}
+
+.feature h3 {
+  color: #00B172;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.feature p {
+  font-size: 28px;
+  font-weight: 100;
+  margin: 20px 20px 0 20px ;
+
+}
